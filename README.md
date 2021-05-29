@@ -20,7 +20,7 @@ You can join the discord server [here](https://discord.gg/HuFApqaz5F) and join t
 - Click on the `Fork` button on the top right of the repository that you want to contribtue to, and select your organization(or your account). This will create a copy of the repository under your account. 
 - Clone the project to your local machine 
   - Using CLI 
-    - `git clone https://github.com/github-username/repository-name.git`
+    `git clone https://github.com/github-username/repository-name.git`
   - Using an IDE (My preffered IDE for GoLang development is GoLand and the instructions given below are for GoLand, but the steps should be similar to all other IDEs out there) (
     - Click on `Get from VCS`
     - Select version control as `Git`
