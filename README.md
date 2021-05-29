@@ -8,7 +8,9 @@ You can join the discord server [here](https://discord.gg/HuFApqaz5F) and join t
 
 ## How do I contribute?
 
-### Get your environment setup first!
+### Fork the project. 
+
+### How do you get your environment setup?
 
 #### Install
 
