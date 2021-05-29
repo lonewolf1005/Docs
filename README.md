@@ -55,6 +55,9 @@ I would recommend using tools such as [evans](https://github.com/ktr0731/evans) 
 ### Unit tests
 There are no unit tests at the moment and as we add them, I will update the instructions for the same and even notify everyone about them.
 
+## Architecture
+![img.png](systems_architecture.png)
+
 ## Sources
 
 [A template for creating open source contributor guidelines](https://opensource.com/life/16/3/contributor-guidelines-template-and-tips)
