@@ -8,15 +8,15 @@ You can join the discord server [here](https://discord.gg/HuFApqaz5F) and join t
 
 ## How do I contribute?
 
-## Let's set your environment up first
+### Let's set your environment up first
 
-### Installing the requirments
+#### Installing the requirments
 - [Go>=1.16](https://golang.org/doc/install)
   - Folow the instructions given in the link to install Go.
 - [Protobuf](https://developers.google.com/protocol-buffers/)
   - Follow instruction the gRPC guide [here](https://grpc.io/docs/languages/go/quickstart/) to install 
 
-### Fork the project
+#### Fork the project
 - Click on the `Fork` button on the top right of the repository that you want to contribtue to, and select your organization(or your account). This will create a copy of the repository under your account. 
 - Clone the project to your local machine 
   - Using CLI 
@@ -28,31 +28,31 @@ You can join the discord server [here](https://discord.gg/HuFApqaz5F) and join t
       - For example: `https://github.com/github-username/repository-name.git`
     - Click `Clone`
 
-### Install dependencies
+#### Install dependencies
 Once you have clone the repository locally, naviate to that folder and run `go mod download` to downlaod the required dependencies for the repository
 
-### Run
+#### Run
 You can run the repos in this project with the `go run main.go`
 
-## Contributing
+### Contributing
 
-### Create a new branch
+#### Create a new branch
 - Create a new branch using `git checkout -b branch-name`
 - Make changes and additions to that branch
 
-### Connecting and testing locally
+#### Connecting and testing locally
 I would recommend using tools such as [evans](https://github.com/ktr0731/evans) to connect to the server and test it out as it is a gRPC project and so tools such as `Postman` will not work. 
 - Install evans by following the instructions on their GitHub repo. 
 - You can connect to the server using the following command `evans foo.pb`.
 - Call an RPC endpoint using the following command `call EndpointName`,
 - For more information on how to use evans, please read the README on their GitHub.
 
-### Pushing changes to the main repository
+#### Pushing changes to the main repository
 - Commit that branch with **appropriate** and **discriptive** commit messages
 - Push the changes to your remote repository using `git push origin branch-name`
 - Then submit a pull request.
 
-## Unit tests
+### Unit tests
 There are no unit tests at the moment and as we add them, I will update the instructions for the same and even notify everyone about them.
 
 ## Sources
